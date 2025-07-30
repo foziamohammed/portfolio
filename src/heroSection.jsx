@@ -5,7 +5,10 @@ import  AI from "./assets/images/AI.jpg";
 import cyber from "./assets/images/cyber.jpg";
 import p from "./assets/images/p.jpg";
 import signpost from "./assets/images/signpost.jpg";
+import hacking from "./assets/images/hacking.png";
 import photo from "./assets/images/photo.jpg";
+import book from "./assets/images/book.jpg";
+import partnership from "./assets/images/partnership.jpg";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaFigma, FaNodeJs, FaUsers, FaPhone, FaLinkedin, FaGit, FaEnvelope, FaLock } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiTailwindcss } from "react-icons/si";
 import ContactForm from "./components/ContactForm";
@@ -15,7 +18,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-
+import { SiNextdotjs } from "react-icons/si";
 
 
 const ProjectCarousel = ({ projects }) => {
@@ -149,9 +152,23 @@ const navigate = useNavigate();
         id: "08",
         title: "Secure_communication",
         description: "Secure end-to-end encrypted real-time messaging platform with authentication",
-        image: AI,
+        image: hacking,
         duration: "Team project / 1 month", 
       },
+        {
+    id: "09",
+    title: "Stock_Management",
+    description: "Book Inventory and Sales Dashboard",
+    image: book,
+    duration: "Team project / 1 month", 
+  },
+   {
+    id: "10",
+    title: "Partnership",
+    description: "Partnership Management Platform for AAU",
+    image: partnership,
+    duration: "Team project / 3 months", 
+  },
     
   ];
   
@@ -165,6 +182,7 @@ const navigate = useNavigate();
     { id: 7, name: "Node.js", level: "Experienced", icon: <FaNodeJs className="text-green-400" /> },
     { id: 8, name: "Express.js", level: "Experienced", icon: <SiExpress className="text-white" /> },
     { id: 9, name: "CyberSecurity", level: "Intermediate", icon: <FaLock className="text-yellow-400" /> },
+    { id: 10, name: "Next.js", level: "Experienced", icon: <SiNextdotjs className="text-white" /> },
   ];
 
   

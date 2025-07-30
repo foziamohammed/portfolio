@@ -8,7 +8,7 @@ export default function Portfolio() {
         <div className="absolute top-0 left-0 w-16 h-1 bg-purple-300 rounded-full -translate-y-4"></div>
 
         <h1 className="text-3xl sm:text-4xl font-semibold text-gray-900 mb-6 sm:mb-8">
-          My Portfolio
+       Secure Real-Time Messaging System
         </h1>
         <p className="text-gray-800 text-base sm:text-xl leading-relaxed font-poppins tracking-wide mb-6 sm:mb-8">
          Secure Real-Time Messaging System
